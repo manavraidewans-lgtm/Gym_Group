@@ -1,8 +1,10 @@
+import Hero from "../Components/Hero.jsx"
+
 function Home () {
     return (
 
         <>
-            <h1>Home</h1>
+           <Hero/>
         </>
 
     )

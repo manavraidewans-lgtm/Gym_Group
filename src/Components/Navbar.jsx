@@ -1,16 +1,18 @@
 import { Link } from "react-router-dom";
+import Logo from "../assets/Logo.png";
 
 function Navbar() {
   return (
-    <nav className="h-16 flex items-center justify-between px-5 bg-green-200">
+    <nav className="h-16 flex items-center justify-between px-5 bg-[#0050ef] overflow-hidden">
 
-      <div className="logo">
+      <div className="logo ">
+        
         <Link to="/">
-          MyLogo
+          <img src={Logo} alt="Logo" className="h-10 w-auto object-contain" />
         </Link>
       </div>
 
-      <div className="links flex gap-8">
+      <div className="links flex gap-8 text-[#d2def7]">
 
         <Link to="/">
           Home
@@ -28,6 +30,18 @@ function Navbar() {
           Contact
         </Link>
 
+      </div>
+
+      <div className="flex justify-centre itens-centre gap-3 text-[#d2def7]">
+        <button>Login</button>
+        <button>Signup</button>
+      </div>
+
+      <div className="hidden">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
 
     </nav>
