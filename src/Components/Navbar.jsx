@@ -3,7 +3,7 @@ import Logo from "../assets/Logo.png";
 
 function Navbar() {
   return (
-    <nav className="h-16 flex items-center justify-between px-5 bg-[#0050ef] overflow-hidden">
+    <nav className="h-16 flex items-center justify-between px-5 bg-[#0050ef] overflow-hidden ">
 
       <div className="logo ">
         
@@ -11,6 +11,8 @@ function Navbar() {
           <img src={Logo} alt="Logo" className="h-10 w-auto object-contain" />
         </Link>
       </div>
+
+      
 
       <div className="links flex gap-8 text-[#d2def7]">
 
