@@ -1,7 +1,13 @@
 import CombineFirst from "../Combined-Cards/combineFirst.jsx"
 import CombineSecond from "../Combined-Cards/CombineSecond.jsx"
 import CombineThird from "../Combined-Cards/CombineThird.jsx"
+import CombineForth from "../Combined-Cards/combineForth.jsx"
+import CombineFifth from "../Combined-Cards/CombineFifth.jsx"
+import Button from "../Components/Button.jsx"
+
+
 import Hero from "../Components/Hero.jsx"
+
 
 
 function Home () {
@@ -25,7 +31,15 @@ function Home () {
 
         <CombineThird/>
 
-        
+        <CombineForth/>
+
+        <CombineFifth/>
+
+        <div className="h-[15vh] w-full flex justify-center items-center">
+            <Button
+            Tittle = "Join the Gym Grop today"
+            />
+        </div>
 
         </>
 
