@@ -1,8 +1,24 @@
+import ContactCards from "../Components/Contact/ContactCards"
+import ContactForm from "../Components/Contact/ContactForm"
+import ContactHero from "../Components/Contact/ContactHero"
+import ContactLoactions from "../Components/Contact/ContactLocations"
+
 function Contact () {
+
+     
+
+
     return (
 
         <>
-            <h1>Contact</h1>
+
+            <ContactHero/>
+
+            <ContactCards/>
+
+            <ContactForm/>
+
+            <ContactLoactions/>
         </>
 
     )
