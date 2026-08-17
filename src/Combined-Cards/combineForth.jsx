@@ -1,12 +1,11 @@
 import HeroCardForth from "../Components/HeroCardForth";
 
-
-function CombineForth () {
+function CombineForth() {
     return (
-        <>
-            <HeroCardForth/>
-        </>
-    )
+        <div className="w-full max-w-full overflow-x-hidden">
+            <HeroCardForth />
+        </div>
+    );
 }
 
-export default CombineForth
+export default CombineForth;

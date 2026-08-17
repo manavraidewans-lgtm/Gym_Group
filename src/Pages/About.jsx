@@ -13,6 +13,8 @@ import bgImg3 from "../assets/about gym3.webp"
 import bgImg4 from "../assets/about gym4.jpeg"
 import Last from "../assets/about last.jpeg"
 
+import LastPic from "../assets/about last.png"
+
 function About() {
 
     useEffect(() => {
@@ -46,6 +48,7 @@ function About() {
             <Start
             Last={Last}
             Button2 = "Join Now" 
+            AboutLast={LastPic}
             />
         </>
     );

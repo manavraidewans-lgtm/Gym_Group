@@ -6,19 +6,19 @@ import classesImg from "../assets/card-back-3.jpg";
 
 function CombineFirst() {
     return (
-        <div className="h-50 w-full bg-white flex justify-evenly items-center">
-            
-            <HeroCardFirst 
+        <div className="w-full max-w-full overflow-x-hidden bg-white px-4 sm:px-6 lg:px-10 py-8 sm:py-10 flex flex-col sm:flex-row flex-wrap justify-center items-center gap-6 lg:gap-8">
+
+            <HeroCardFirst
                 Tittle="Member"
                 bgImage={memberImg}
             />
 
-            <HeroCardFirst 
+            <HeroCardFirst
                 Tittle="Trainer"
                 bgImage={trainerImg}
             />
 
-            <HeroCardFirst 
+            <HeroCardFirst
                 Tittle="Classes"
                 bgImage={classesImg}
             />
