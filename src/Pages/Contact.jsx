@@ -7,11 +7,10 @@ import Start from "../Components/Contact/ContactStart"
 import Last from "../assets/about last.jpeg"
 import Back from "../assets/about last.png"
 
+
+
+
 function Contact () {
-
-     
-
-
     return (
 
         <>

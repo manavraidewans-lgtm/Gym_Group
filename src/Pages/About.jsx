@@ -17,9 +17,6 @@ import LastPic from "../assets/about last.png"
 
 function About() {
 
-    useEffect(() => {
-        document.title = "The Gym Group \u00A0\u00A0 | What we are offering you here ";
-    }, []);
 
     return (
         <>

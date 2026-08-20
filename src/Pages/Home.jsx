@@ -38,10 +38,6 @@ function Home() {
 
             <CombineFifth />
 
-            {/* Join Button */}
-            <div className="w-full min-h-30 px-4 py-8 flex justify-center items-center">
-                <Button Tittle="Join the Gym Group today" />
-            </div>
         </>
     );
 }

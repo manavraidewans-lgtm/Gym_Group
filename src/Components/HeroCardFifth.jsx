@@ -13,6 +13,10 @@ function HeroCardFifth({ Image, Tittle }) {
                     {Tittle}
                 </h1>
 
+                <h1 className="text-xl sm:text-2xl">
+                    {Tittle}
+                </h1>
+
             </div>
         </>
     );

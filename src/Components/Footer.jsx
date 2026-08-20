@@ -16,6 +16,8 @@ function Footer() {
                         2022 All Rights Reserved.
                     </h1>
 
+                    
+
                     {/* Right */}
                     <div className="flex items-center justify-center gap-4 text-sm sm:text-base">
 
